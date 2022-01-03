@@ -1,0 +1,17 @@
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+    background-color: rgb(83, 166, 221);
+    margin-bottom: 10%;
+}
