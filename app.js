@@ -16,24 +16,24 @@ var markQuotes = [
 
 var andrewQuotes = [
     "How to be brilliant: Make something awesome and blame it on your brain.",
-    "I've gotta believe in what my heart tells me, even if it\'s ",
-    "You understand reality while everyone else is running arouond confused and angry and upset because they think reality is something happening to them rather than something they are making every momment with every thought",
-    "Don\'t even bother trying to look at your stat tracker. Focus on making something good",
-    "Maybe what I\'m discovering is people actually like complexity, and will even gravitate toward it, as long as it isn\'t a total train wreck"
+    "I've gotta believe in what my heart tells me, even if it\'s a fake thing.",
+    "We will snatch purpose from the jaws of fulfility.",
+    "Don\'t even bother trying to look at your stat tracker. Focus on making something good.",
+    "I write it because I enjoy it and assume everyone else will and take pity on those who don\'t."
 ]
 
 var karinaQuotes = [
     "Are we human? Or are we Luigi?",
-    "Just delete your art....It works everytime",
+    "Just delete your art....It works everytime.",
     "It\'s not that I don't like it, I just...hate it.",
     "That\'s art baby!",
-    "I\'m always looking for an excuse to draw a Yu-Gi-Oh! Character"
+    "I\'m always looking for an excuse to draw a Yu-Gi-Oh! Character."
 ]
 
 var edgarQuotes = [
     "Sometimes, some things have to settle, and you have to think about the intention of it.",
-    "I think it's good to have pressure on yourself. The worst crime is to get kind of really complacent.",
+    "Whenever I\'m writing a script, I\'m scoring myself by playing the right kind of music.",
     "I use music to focus, like an internal motor.",
-    "I\'d rather try and cram in another two gags than leave a pause to say, \'Hey, wasn't that bit funny?\'",
+    "If you\'re on a road trip, you need driving music.",
     "I am always watching old films and trying to fill gaps in my knowledge."
 ]
