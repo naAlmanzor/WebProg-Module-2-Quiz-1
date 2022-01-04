@@ -13,27 +13,28 @@
             <div class="login-container">
 
                 <div class="quote-container">
-                    <h4 class="quote">"Filler Quote"</h4>
+                    <h4 class="quote" id="quoteDisplay"></h4>
                     
                     <div class="quote-details">
                         <div>
                             <span>--</span>
-                            <span class="author">Filler Author</span>
+                            <span class="author" id="quoteAuthor"></span>
                         </div>
                         
-                        <button class="quote-button-container">Get Quote</button>
+                        <button class="quote-button-container" onclick="getQuote()">Get Quote</button>
                     </div>
                     
                 </div>
                 
-                <button class="person-button-container">Felix Kjellberg</button>
-                <button class="person-button-container">Mark Fischbach</button>
-                <button class="person-button-container">Andrew Hussie</button>
-                <button class="person-button-container">Karina Ferek</button>
-                <button class="person-button-container">Edgar Wright</button>
+                <button class="person-button-container" onclick="felixSelected()">Felix Kjellberg</button>
+                <button class="person-button-container" onclick="markSelected()">Mark Fischbach</button>
+                <button class="person-button-container" onclick="andrewSelected()">Andrew Hussie</button>
+                <button class="person-button-container" onclick="karinaSelected()">Karina Farek</button>
+                <button class="person-button-container" onclick="edgarSelected()">Edgar Wright</button>
             </div>
         
         </div>    
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

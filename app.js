@@ -37,3 +37,56 @@ var edgarQuotes = [
     "If you\'re on a road trip, you need driving music.",
     "I am always watching old films and trying to fill gaps in my knowledge."
 ]
+
+var selected = "";
+
+function felixSelected(){
+    return selected = "felix";
+}
+
+function markSelected(){
+    return selected = "mark";
+}
+
+function andrewSelected(){
+    return selected = "andrew";
+}
+
+function karinaSelected(){
+    return selected = "karina";
+}
+
+function edgarSelected(){
+    return selected = "edgar";
+}
+
+function getQuote(){
+
+    var randomNumber = Math.floor(Math.random()*5);
+
+    if (selected=='felix'){
+         document.getElementById('quoteDisplay').innerHTML = felixQuotes[randomNumber];
+         document.getElementById('quoteAuthor').innerHTML = "Felix Kjellberg"
+    }
+
+    if (selected=='mark'){
+        document.getElementById('quoteDisplay').innerHTML = markQuotes[randomNumber];
+        document.getElementById('quoteAuthor').innerHTML = "Mark Fischbach"
+    }
+
+    if (selected=='andrew'){
+        document.getElementById('quoteDisplay').innerHTML = andrewQuotes[randomNumber];
+        document.getElementById('quoteAuthor').innerHTML = "Andrew Hussie"
+    }
+
+    if (selected=='karina'){
+        document.getElementById('quoteDisplay').innerHTML = karinaQuotes[randomNumber];
+        document.getElementById('quoteAuthor').innerHTML = "Karina Farek"
+    }
+
+    if (selected=='edgar'){
+        document.getElementById('quoteDisplay').innerHTML = edgarQuotes[randomNumber];
+        document.getElementById('quoteAuthor').innerHTML = "Edgar Wright"
+    }
+
+}
