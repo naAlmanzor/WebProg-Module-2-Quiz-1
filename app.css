@@ -1,4 +1,3 @@
-
 .flex-container{
     display: flex;
     justify-content: center;
@@ -6,12 +5,70 @@
     height: 100%; 
 }
 
-.box-container{
+.quote-container{
+    padding: 30px;
+    flex-direction: column;
+    background-color: rgb(83, 166, 221);
+    color: white;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    box-shadow: 20px 20px lightgray;
+}
+
+.quote{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
-    flex-direction: column;
-    background-color: rgb(83, 166, 221);
-    margin-bottom: 10%;
+    padding: 15%;
+    font-size: 20px;
+    border-bottom: solid rgba(0, 0, 0, 0.466);
+}
+
+.quote-details{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.quote-button-container{ 
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.quote-button-container:hover{
+    border: solid black;
+    
+}
+
+.quote-button-container:active{
+    background-color: black;
+    color:white;
+    
+}
+
+.person-button-container{ 
+    padding: 30px;
+    font-size: 15px;
+    margin: 0px 2px;
+    border: none;
+    border-radius: 20px;
+    /* color: white; */
+    background-color: lightgrey;
+    flex-direction: row;
+}
+
+.person-button-container:hover{
+    background-color: black;
+    color: white;  
+}
+
+.person-button-container:active{
+    background-color: lightgrey;
+    color: black;
 }
