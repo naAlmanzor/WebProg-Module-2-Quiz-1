@@ -58,7 +58,6 @@
     margin: 0px 2px;
     border: none;
     border-radius: 20px;
-    /* color: white; */
     background-color: lightgrey;
     flex-direction: row;
 }
@@ -68,7 +67,7 @@
     color: white;  
 }
 
-.person-button-container:active{
-    background-color: lightgrey;
-    color: black;
+.person-button-container:focus{
+    background-color: black;
+    color: white;
 }
