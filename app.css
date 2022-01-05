@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15%;
+    padding: 10% 0%;
     font-size: 20px;
     border-bottom: solid rgba(0, 0, 0, 0.466);
 }
@@ -38,7 +38,6 @@
     border: none;
     border-radius: 20px;
     background-color: white;
-    flex-direction: row;
 }
 
 .quote-button-container:hover{
@@ -59,7 +58,6 @@
     border: none;
     border-radius: 20px;
     background-color: lightgrey;
-    flex-direction: row;
 }
 
 .person-button-container:hover{
@@ -70,4 +68,10 @@
 .person-button-container:focus{
     background-color: black;
     color: white;
+}
+
+#getQuoteBtn{
+    animation: 5s fadeIn;
+    animation-delay: 5s;
+    visibility: hidden;
 }

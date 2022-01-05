@@ -19,7 +19,7 @@ var andrewQuotes = [
     "I've gotta believe in what my heart tells me, even if it\'s a fake thing.",
     "We will snatch purpose from the jaws of fulfility.",
     "Don\'t even bother trying to look at your stat tracker. Focus on making something good.",
-    "I write it because I enjoy it and assume everyone else will and take pity on those who don\'t."
+    "I write it because I enjoy it and assume everyone else will and take pity those who don\'t."
 ]
 
 var karinaQuotes = [
@@ -39,26 +39,28 @@ var edgarQuotes = [
 ]
 
 var selected = "";
+var getQuoteBtn = document.getElementById('getQuoteBtn');
 
 function felixSelected(){
-    return selected = "felix";
+    return selected = "felix", getQuoteBtn.style.visibility = "visible";
 }
 
 function markSelected(){
-    return selected = "mark";
+    return selected = "mark", getQuoteBtn.style.visibility = "visible";
 }
 
 function andrewSelected(){
-    return selected = "andrew";
+    return selected = "andrew", getQuoteBtn.style.visibility = "visible";
 }
 
 function karinaSelected(){
-    return selected = "karina";
+    return selected = "karina", getQuoteBtn.style.visibility = "visible";
 }
 
 function edgarSelected(){
-    return selected = "edgar";
+    return selected = "edgar", getQuoteBtn.style.visibility = "visible";
 }
+
 
 function getQuote(){
 
