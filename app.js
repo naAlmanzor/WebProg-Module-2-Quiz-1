@@ -42,22 +42,27 @@ var selected = "";
 var getQuoteBtn = document.getElementById('getQuoteBtn');
 
 function felixSelected(){
+    document.getElementById('quoteAuthor').innerHTML = "-- Felix Kjellberg"
     return selected = "felix", getQuoteBtn.style.visibility = "visible";
 }
 
 function markSelected(){
+    document.getElementById('quoteAuthor').innerHTML = "-- Mark Fischbach"
     return selected = "mark", getQuoteBtn.style.visibility = "visible";
 }
 
 function andrewSelected(){
+    document.getElementById('quoteAuthor').innerHTML = "-- Andrew Hussie"
     return selected = "andrew", getQuoteBtn.style.visibility = "visible";
 }
 
 function karinaSelected(){
+    document.getElementById('quoteAuthor').innerHTML = "-- Karina Farek"
     return selected = "karina", getQuoteBtn.style.visibility = "visible";
 }
 
 function edgarSelected(){
+    document.getElementById('quoteAuthor').innerHTML = "-- Edgar Wright"
     return selected = "edgar", getQuoteBtn.style.visibility = "visible";
 }
 
@@ -67,28 +72,28 @@ function getQuote(){
     var randomNumber = Math.floor(Math.random()*5);
 
     if (selected=='felix'){
-         document.getElementById('quoteDisplay').innerHTML = felixQuotes[randomNumber];
-         document.getElementById('quoteAuthor').innerHTML = "Felix Kjellberg"
+         document.getElementById('quoteDisplay').innerHTML = "\" "+felixQuotes[randomNumber]+"\" ";
+        
     }
 
     if (selected=='mark'){
-        document.getElementById('quoteDisplay').innerHTML = markQuotes[randomNumber];
-        document.getElementById('quoteAuthor').innerHTML = "Mark Fischbach"
+        document.getElementById('quoteDisplay').innerHTML = "\" "+markQuotes[randomNumber]+"\" ";
+       
     }
 
     if (selected=='andrew'){
-        document.getElementById('quoteDisplay').innerHTML = andrewQuotes[randomNumber];
-        document.getElementById('quoteAuthor').innerHTML = "Andrew Hussie"
+        document.getElementById('quoteDisplay').innerHTML = "\" "+andrewQuotes[randomNumber]+"\" ";
+       
     }
 
     if (selected=='karina'){
-        document.getElementById('quoteDisplay').innerHTML = karinaQuotes[randomNumber];
-        document.getElementById('quoteAuthor').innerHTML = "Karina Farek"
+        document.getElementById('quoteDisplay').innerHTML = "\" "+karinaQuotes[randomNumber]+"\" ";
+       
     }
 
     if (selected=='edgar'){
-        document.getElementById('quoteDisplay').innerHTML = edgarQuotes[randomNumber];
-        document.getElementById('quoteAuthor').innerHTML = "Edgar Wright"
+        document.getElementById('quoteDisplay').innerHTML = "\" "+edgarQuotes[randomNumber]+"\" ";
+        
     }
 
 }

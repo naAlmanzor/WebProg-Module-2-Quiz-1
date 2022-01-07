@@ -3,11 +3,21 @@
     font-size: small;
 }
 
-.flex-container{
+html{
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; 
+    flex-direction: column;
+}
+h6{
+    font-size: 30px;
+    margin-top: 5%;
 }
 
 .quote-container{
@@ -17,22 +27,30 @@
     color: white;
     margin-bottom: 10%;
     border-radius: 15px;
-    box-shadow: 20px 20px lightgray;
+    box-shadow: 20px 20px rgba(64, 79, 95, 0.548);
 }
 
 .quote{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10% 0%;
+    align-items: center column; 
+    height: 10%;
+    margin-top: 10px;
+    padding: 10% 0px;
+    font-size: 18px;
+    border-bottom: solid rgba(0, 0, 0, 0.945);
+
+    font-style: italic;
+}
+
+.author{
     font-size: 20px;
-    border-bottom: solid rgba(0, 0, 0, 0.466);
 }
 
 .quote-details{
     display: flex;
     justify-content: space-between; 
-    align-items: center;
+    align-items: center column;
 }
 
 .quote-button-container{ 
@@ -62,21 +80,22 @@
     margin: 0px 2px;
     border: none;
     border-radius: 20px;
-    background-color: lightgrey;
+    background-color: rgb(255, 255, 255);
+    border: solid gray;
 }
 
 .person-button-container:hover{
     background-color: black;
-    color: white;  
+    color: white;
+    border: solid black;  
 }
 
 .person-button-container:focus{
-    background-color: black;
+    background-color: rgb(83, 166, 221);
     color: white;
+    border: solid rgb(83, 166, 221);  
 }
 
 #getQuoteBtn{
-    animation: 5s fadeIn;
-    animation-delay: 5s;
     visibility: hidden;
 }
